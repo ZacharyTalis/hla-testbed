@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="vm3_hull">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/content/hlvr_addons/vm3_hull/vm3_hull.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
