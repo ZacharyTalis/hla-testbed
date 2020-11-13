@@ -1,5 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0573bca2-4821-4d08-b7ad-755e6298ad4c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S8/autosave.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S8/autosave.sav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S8/autosave01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S8/autosave01.sav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S8/autosave02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S8/autosave02.sav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S8/personal.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S8/quick.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S8/quick.sav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S8/quick01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S8/quick01.sav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S8/quick02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S8/quick02.sav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/autosave.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/autosave.sav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/autosave01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/autosave01.sav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/autosave02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/autosave02.sav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/personal.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/quick.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/quick.sav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vscripts.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tools_asset_info.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../tools_asset_info.bin" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -7,18 +64,108 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectId" id="1kDnJADnvIsx4kjkakp7dIvBSM2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="vscripts" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="lua_testbed" />
+      <module name="vscripts" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0573bca2-4821-4d08-b7ad-755e6298ad4c" name="Default Changelist" comment="" />
+      <created>1605243955297</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605243955297</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="94" key="#Project_Structure" timestamp="1605244503296">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605244503296" />
+    <state x="414" y="175" width="1092" height="786" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605244527720">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" width="1092" height="786" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605244527720" />
+    <state x="599" y="200" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1605244406584">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="599" y="200" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605244406584" />
+    <state x="689" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1605244521201">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="689" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605244521201" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1605244004852">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605244004852" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1605244345979">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605244345979" />
   </component>
 </project>
