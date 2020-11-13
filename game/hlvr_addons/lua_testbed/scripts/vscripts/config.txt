@@ -1,0 +1,7 @@
+#Fri Nov 13 02:52:39 EST 2020
+server_tcpPort=54555
+server_udpPort=54777
+client_tcpPort=54555
+client_udpPort=54777
+client_ip=192.168.52.193
+client_timeout=5000

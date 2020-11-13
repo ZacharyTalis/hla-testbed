@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,40 +22,43 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0573bca2-4821-4d08-b7ad-755e6298ad4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S8/autosave.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S8/autosave.sav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S8/autosave01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S8/autosave01.sav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S8/autosave02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S8/autosave02.sav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S8/personal.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S8/quick.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S8/quick.sav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S8/quick01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S8/quick01.sav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S8/quick02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S8/quick02.sav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/autosave.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/autosave.sav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/autosave01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/autosave01.sav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/autosave02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/autosave02.sav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/personal.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/quick.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/quick.sav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vscripts.iml" afterDir="false" />
+    <list default="true" id="0573bca2-4821-4d08-b7ad-755e6298ad4c" name="Default Changelist" comment="Java project config">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_kryo_5_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_minlog_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_minlog_minlog_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_reflectasm_1_11_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_reflectasm_reflectasm_shaded_1_07.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__kryonet_kryonet_2_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/kryonet_2_21_all.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/lua_testbed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/packets/CoordsRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/packets/CoordsResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lua_testbed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua_testbed_io.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua_testbed_io.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../tools_asset_info.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../tools_asset_info.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tools_thumbnail_cache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../tools_thumbnail_cache.bin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
@@ -60,7 +66,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.3\plugins\maven\lib\maven3" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -76,13 +82,24 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Program Files (x86)\Steam\steamapps\common\Half-Life Alyx\game\hlvr_addons\lua_testbed\scripts\vscripts\java\src\main\java" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn compile" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.lua_testbed">
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="net.ashald.envfile">
         <option name="IS_ENABLED" value="false" />
@@ -98,9 +115,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="vscripts" type="Application" factoryName="Application">
+    <configuration name="lua_testbed" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="lua_testbed" />
-      <module name="vscripts" />
+      <module name="java" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;C:\Program Files (x86)\Steam\steamapps\common\Half-Life Alyx\game\hlvr_addons\lua_testbed\scripts\vscripts&quot;" />
       <extension name="net.ashald.envfile">
         <option name="IS_ENABLED" value="false" />
         <option name="IS_SUBST" value="false" />
@@ -115,6 +133,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="lua_testbed" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/java" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.lua_testbed" />
+      <item itemvalue="Maven.lua_testbed" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -125,6 +170,14 @@
       <option name="presentableId" value="Default" />
       <updated>1605243955297</updated>
     </task>
+    <task id="LOCAL-00001" summary="Java project config">
+      <created>1605244833361</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605244833361</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,31 +194,77 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Java project config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java project config" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="94" key="#Project_Structure" timestamp="1605244503296">
+    <state x="586" y="198" key="#Inspections" timestamp="1605252763935">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605244503296" />
-    <state x="414" y="175" width="1092" height="786" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605244527720">
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605252763935" />
+    <state x="440" y="94" key="#Project_Structure" timestamp="1605246001989">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" width="1092" height="786" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605244527720" />
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605246001989" />
+    <state x="414" y="110" width="1092" height="930" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605254721928">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="110" width="1092" height="930" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605254721928" />
     <state x="599" y="200" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1605244406584">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="599" y="200" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605244406584" />
-    <state x="689" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1605244521201">
+    <state x="740" y="280" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1605254537604">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="689" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605244521201" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1605244004852">
+    <state x="740" y="280" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605254537604" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1605246884750">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605244004852" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1605244345979">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605246884750" />
+    <state x="689" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1605247889640">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605244345979" />
+    <state x="689" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605247889640" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1605247838158">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605247838158" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1605258292484">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605258292484" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1605258292483">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605258292483" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1605258292483">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605258292483" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1605258292484">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605258292484" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1605246872292">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605246872292" />
+    <state x="444" y="68" key="SettingsEditor" timestamp="1605251770747">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="444" y="68" key="SettingsEditor/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605251770747" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605244835024">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605244835024" />
+    <state x="581" y="140" key="new project wizard" timestamp="1605245850493">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="581" y="140" key="new project wizard/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605245850493" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1605246350717">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605246350717" />
   </component>
 </project>

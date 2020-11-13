@@ -1,1 +1,1 @@
-return Vector(0, 0, 32)
+return Vector3(1,2,6)
