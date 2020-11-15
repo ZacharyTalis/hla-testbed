@@ -1,7 +1,8 @@
 #Fri Nov 13 02:52:39 EST 2020
-server_tcpPort=54555
+server_tcpPort=54000
 server_udpPort=54777
-client_tcpPort=54555
+client_tcpPort=54000
 client_udpPort=54777
 client_ip=192.168.52.193
 client_timeout=5000
+log_path=C:\\Program Files (x86)\\Steam\\steamapps\\common\\Half-Life Alyx\\game\\hlvr\\console.log

@@ -3,10 +3,13 @@ import com.esotericsoftware.kryo.*;
 import packets.*;
 
 import java.io.*;
+import java.util.NoSuchElementException;
 import java.util.Properties;
+import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
 public class lua_testbed {
+    @SuppressWarnings("InfiniteLoopStatement")
     public static void main(String[] args)  {
 
         Properties properties = readProperties(args[0]);
@@ -18,7 +21,7 @@ public class lua_testbed {
         addServerListener(server, args[0]);
 
         CoordsRequest request = new CoordsRequest();
-        request.text = "1,2,6";
+        request.text = "1,2,7";
 
         Client client = startClient(
                 Integer.parseInt((String)properties.get("client_timeout")),
@@ -35,16 +38,21 @@ public class lua_testbed {
         Kryo clientKryo = client.getKryo();
         clientKryo.register(CoordsRequest.class);
         clientKryo.register(CoordsResponse.class);
+        String output;
 
-        boolean loopFailure = false;
-        while (!loopFailure) {
-            try {
-                client.sendTCP(request);
-                TimeUnit.MILLISECONDS.sleep(10);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-                loopFailure = true;
+        try {
+            while (true) {
+                TimeUnit.MILLISECONDS.sleep(1);
+                output = readConsoleLog((String)properties.get("log_path"));
+                if (output != null) {
+                    request.text = output;
+                    System.out.println(output);
+                    client.sendTCP(request);
+                }
+                TimeUnit.MILLISECONDS.sleep(9);
             }
+        } catch (Exception e) {
+                e.printStackTrace();
         }
     }
 
@@ -65,12 +73,9 @@ public class lua_testbed {
             public void received (Connection connection, Object object) {
                 if (object instanceof CoordsRequest) {
                     CoordsRequest request = (CoordsRequest)object;
-//                    System.out.print("CoordsRequest received: ");
-//                    System.out.println(request.text);
                     writeLua(request.text, filepath);
 
                     CoordsResponse response = new CoordsResponse();
-//                    response.text = "CoordsResponse text.";
                     connection.sendTCP(response);
                 }
             }
@@ -94,7 +99,6 @@ public class lua_testbed {
             public void received (Connection connection, Object object) {
                 if (object instanceof CoordsResponse) {
                     CoordsResponse response = (CoordsResponse)object;
-//                    System.out.println("CoordsResponse received.");
                 }
             }
         });
@@ -104,10 +108,9 @@ public class lua_testbed {
         try {
 
             File luaFile = new File(filepath+"\\lua_testbed_io.lua");
-//            if (!luaFile.createNewFile()) System.out.println("Lua file already exists! Writing anyways.");
 
             FileWriter luaWrite = new FileWriter(filepath+"\\lua_testbed_io.lua");
-            luaWrite.write("return Vector3("+text+")");
+            luaWrite.write("return Vector("+text+")");
             luaWrite.close();
 
         } catch (IOException ioException) {
@@ -126,6 +129,31 @@ public class lua_testbed {
         }
 
         return properties;
+    }
+
+    private static void clearConsoleLog(String filepath) {
+        try {
+            PrintWriter clear = new PrintWriter(filepath);
+            clear.close();
+        } catch (FileNotFoundException fileNotFoundException) {
+            fileNotFoundException.printStackTrace();
+        }
+    }
+
+    private static String readConsoleLog(String filepath) {
+        try {
+            Scanner scanner = new Scanner(new File(filepath));
+            String output = scanner.nextLine();
+            clearConsoleLog(filepath);
+            output =  output.replace("\0","");
+            if (output.matches("(-?\\d+(?:\\.\\d+)?),(-?\\d+(?:\\.\\d+)?),(-?\\d+(?:\\.\\d+)?)")) return output;
+            return null;
+        } catch (NoSuchElementException noSuchElementException) {
+            return null;
+        } catch (FileNotFoundException fileNotFoundException) {
+            fileNotFoundException.printStackTrace();
+            return null;
+        }
     }
 
 }

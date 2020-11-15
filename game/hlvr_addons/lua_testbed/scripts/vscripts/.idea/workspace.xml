@@ -22,31 +22,24 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0573bca2-4821-4d08-b7ad-755e6298ad4c" name="Default Changelist" comment="Java project config">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_kryo_5_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_minlog_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_minlog_minlog_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_reflectasm_1_11_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_reflectasm_reflectasm_shaded_1_07.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__kryonet_kryonet_2_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/kryonet_2_21_all.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/lua_testbed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/packets/CoordsRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/packets/CoordsResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="0573bca2-4821-4d08-b7ad-755e6298ad4c" name="Default Changelist" comment="Add initial networking">
+      <change beforePath="$PROJECT_DIR$/../../../../../content/hlvr_addons/lua_testbed/maps/lua_testbed.vmap" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../content/hlvr_addons/lua_testbed/maps/lua_testbed.vmap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/autosave.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/autosave.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/autosave.sav" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/autosave.sav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/autosave01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/autosave01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/autosave01.sav" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/autosave01.sav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/autosave02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/autosave02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/autosave02.sav" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/autosave02.sav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/quick.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/quick.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/quick.sav" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/quick.sav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../maps/graphs/lua_testbed.ain" beforeDir="false" afterPath="$PROJECT_DIR$/../../maps/graphs/lua_testbed.ain" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../maps/lua_testbed.vpk" beforeDir="false" afterPath="$PROJECT_DIR$/../../maps/lua_testbed.vpk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/lua_testbed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.txt" beforeDir="false" afterPath="$PROJECT_DIR$/config.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/java/lua_testbed.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/lua_testbed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua_testbed.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua_testbed.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lua_testbed_io.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua_testbed_io.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../tools_asset_info.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../tools_asset_info.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../tools_thumbnail_cache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../tools_thumbnail_cache.bin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +59,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="mavenHome" value="D:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.3\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -177,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605244833361</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add initial networking">
+      <created>1605259087959</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605259087959</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,7 +195,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Java project config" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java project config" />
+    <MESSAGE value="Add initial networking" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add initial networking" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1605252763935">
@@ -206,22 +207,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="#Project_Structure/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605246001989" />
-    <state x="414" y="110" width="1092" height="930" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605254721928">
+    <state x="492" y="73" width="1092" height="930" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605307286329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="110" width="1092" height="930" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605254721928" />
+    <state x="492" y="73" width="1092" height="930" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605307286329" />
     <state x="599" y="200" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1605244406584">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="599" y="200" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605244406584" />
-    <state x="740" y="280" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1605254537604">
+    <state x="740" y="280" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1605307045323">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="280" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605254537604" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1605246884750">
+    <state x="740" y="280" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605307045323" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1605307976712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605246884750" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605307976712" />
     <state x="689" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1605247889640">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -230,41 +231,57 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605247838158" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1605258292484">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1605426139379">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605258292484" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1605258292483">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605426139379" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1605426139379">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605258292483" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1605258292483">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605426139379" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1605426139379">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605258292483" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1605258292484">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605426139379" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1605426139379">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605258292484" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605426139379" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1605312613100">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605312613100" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1605312613100">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605312613100" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1605312613100">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605312613099" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1605312613100">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605312613100" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1605246872292">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605246872292" />
-    <state x="444" y="68" key="SettingsEditor" timestamp="1605251770747">
+    <state x="444" y="68" key="SettingsEditor" timestamp="1605301725107">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="444" y="68" key="SettingsEditor/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605251770747" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605244835024">
+    <state x="444" y="68" key="SettingsEditor/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605301725107" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605259090363">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605244835024" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605259090363" />
     <state x="581" y="140" key="new project wizard" timestamp="1605245850493">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="581" y="140" key="new project wizard/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605245850493" />
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1605246350717">
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1605305123922">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605246350717" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605305123922" />
   </component>
 </project>
