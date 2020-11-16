@@ -21,7 +21,6 @@ public class lua_testbed {
         addServerListener(server, args[0]);
 
         CoordsRequest request = new CoordsRequest();
-        request.text = "1,2,7";
 
         Client client = startClient(
                 Integer.parseInt((String)properties.get("client_timeout")),
@@ -107,14 +106,34 @@ public class lua_testbed {
     private static void writeLua (String text, String filepath) {
         try {
 
-            File luaFile = new File(filepath+"\\lua_testbed_io.lua");
+            System.out.println(text);
+            String[] values = text.split(",");
 
-            FileWriter luaWrite = new FileWriter(filepath+"\\lua_testbed_io.lua");
-            luaWrite.write("(Entities:FindByName(nil, \"moveEnt\")):SetOrigin(Vector("+text+"))");
+            FileWriter luaWrite = new FileWriter(filepath+"\\networking_io.lua");
+            luaWrite.write("(Entities:FindByName(nil, \"moveEnt\")):" +
+                    "SetOrigin(Vector("+constructValues(values, 0, 3)+"));\n" +
+                    "(Entities:FindByName(nil, \"moveEnt\")):" +
+                    "SetAngles("+constructValues(values, 3, 3)+")");
             luaWrite.close();
 
         } catch (IOException ioException) {
             ioException.printStackTrace();
+        }
+    }
+
+    private static String constructValues(String[] values, int startingIndex, int numberOfValues) {
+        String text = "";
+        try {
+            int currentIndex = startingIndex;
+            while (currentIndex <= startingIndex+numberOfValues-1) {
+                text = text + values[currentIndex];
+                currentIndex++;
+                if (currentIndex != startingIndex+numberOfValues) text = text + ",";
+            }
+            return text;
+        } catch (Exception exception) {
+            exception.printStackTrace();
+            return null;
         }
     }
 
@@ -146,8 +165,13 @@ public class lua_testbed {
             String output = scanner.nextLine();
             clearConsoleLog(filepath);
             output =  output.replace("\0","");
-            if (output.matches("(-?\\d+(?:\\.\\d+)?),(-?\\d+(?:\\.\\d+)?),(-?\\d+(?:\\.\\d+)?)")) return output;
-            return null;
+            System.out.println(output);
+            if (!output.matches(
+                    "(-?\\d+(?:\\.\\d+)?),(-?\\d+(?:\\.\\d+)?),(-?\\d+(?:\\.\\d+)?),(-?\\d+(?:\\.\\d+)?)," +
+                            "(-?\\d+(?:\\.\\d+)?),(-?\\d+(?:\\.\\d+)?)")) {
+                return null;
+            }
+            return output;
         } catch (NoSuchElementException noSuchElementException) {
             return null;
         } catch (FileNotFoundException fileNotFoundException) {

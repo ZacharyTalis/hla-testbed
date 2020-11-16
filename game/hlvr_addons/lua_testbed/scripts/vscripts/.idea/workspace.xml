@@ -22,12 +22,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0573bca2-4821-4d08-b7ad-755e6298ad4c" name="Default Changelist" comment="Gets coords from game">
+    <list default="true" id="0573bca2-4821-4d08-b7ad-755e6298ad4c" name="Default Changelist" comment="Initial networking prototype">
+      <change afterPath="$PROJECT_DIR$/networking.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/networking_io.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../content/hlvr_addons/lua_testbed/maps/lua_testbed.vmap" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../content/hlvr_addons/lua_testbed/maps/lua_testbed.vmap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../maps/graphs/lua_testbed.ain" beforeDir="false" afterPath="$PROJECT_DIR$/../../maps/graphs/lua_testbed.ain" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../maps/lua_testbed.vpk" beforeDir="false" afterPath="$PROJECT_DIR$/../../maps/lua_testbed.vpk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/src/main/java/lua_testbed.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/lua_testbed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua_testbed.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua_testbed.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua_testbed_io.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua_testbed_io.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua_testbed.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua_testbed_io.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tools_asset_info.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../tools_asset_info.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tools_thumbnail_cache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../tools_thumbnail_cache.bin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605427111087</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Initial networking prototype">
+      <created>1605502478645</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605502478645</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,7 +212,8 @@
     <MESSAGE value="Java project config" />
     <MESSAGE value="Add initial networking" />
     <MESSAGE value="Gets coords from game" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gets coords from game" />
+    <MESSAGE value="Initial networking prototype" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial networking prototype" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1605252763935">
@@ -222,10 +236,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="280" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605307045323" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1605307976712">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1605531915913">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605307976712" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605531915913" />
     <state x="689" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1605247889640">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -234,38 +248,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605247838158" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1605501269751">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1605534339841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605501269751" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1605501269751">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605534339841" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1605534339840">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605501269751" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1605501269751">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605534339840" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1605534339840">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605501269751" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1605501269751">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605534339840" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1605534339840">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605501269751" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1605312613100">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605534339840" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1605534267465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605312613100" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1605312613100">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605534267465" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1605534267465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605312613100" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1605312613100">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605534267465" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1605534267465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605312613099" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1605312613100">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605534267465" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1605534267465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605312613100" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605534267465" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1605246872292">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -274,10 +288,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="444" y="68" key="SettingsEditor/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605301725107" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605427114442">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605502480670">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605427114442" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605502480670" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1605533050665">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605533050665" />
     <state x="581" y="140" key="new project wizard" timestamp="1605245850493">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -286,5 +304,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605305123922" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="values[3]" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
