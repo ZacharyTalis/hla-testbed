@@ -1,1 +1,1 @@
-return Vector(990.26678466797,-120.83489990234,36.03125)
+(Entities:FindByName(nil, "moveEnt")):SetOrigin(Vector(1060.0971679688,-48.989196777344,36.03125))

@@ -110,7 +110,7 @@ public class lua_testbed {
             File luaFile = new File(filepath+"\\lua_testbed_io.lua");
 
             FileWriter luaWrite = new FileWriter(filepath+"\\lua_testbed_io.lua");
-            luaWrite.write("return Vector("+text+")");
+            luaWrite.write("(Entities:FindByName(nil, \"moveEnt\")):SetOrigin(Vector("+text+"))");
             luaWrite.close();
 
         } catch (IOException ioException) {

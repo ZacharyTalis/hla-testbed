@@ -22,24 +22,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0573bca2-4821-4d08-b7ad-755e6298ad4c" name="Default Changelist" comment="Add initial networking">
+    <list default="true" id="0573bca2-4821-4d08-b7ad-755e6298ad4c" name="Default Changelist" comment="Gets coords from game">
       <change beforePath="$PROJECT_DIR$/../../../../../content/hlvr_addons/lua_testbed/maps/lua_testbed.vmap" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../content/hlvr_addons/lua_testbed/maps/lua_testbed.vmap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/autosave.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/autosave.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/autosave.sav" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/autosave.sav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/autosave01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/autosave01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/autosave01.sav" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/autosave01.sav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/autosave02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/autosave02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/autosave02.sav" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/autosave02.sav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/quick.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/quick.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/quick.sav" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../hlvr/SAVE/S9/quick.sav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maps/graphs/lua_testbed.ain" beforeDir="false" afterPath="$PROJECT_DIR$/../../maps/graphs/lua_testbed.ain" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maps/lua_testbed.vpk" beforeDir="false" afterPath="$PROJECT_DIR$/../../maps/lua_testbed.vpk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.txt" beforeDir="false" afterPath="$PROJECT_DIR$/config.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/src/main/java/lua_testbed.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/lua_testbed.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lua_testbed.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua_testbed.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lua_testbed_io.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua_testbed_io.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../tools_asset_info.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../tools_asset_info.bin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +165,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605259087959</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Gets coords from game">
+      <created>1605426997280</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605426997280</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Gets coords from game">
+      <created>1605427111087</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605427111087</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,7 +198,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Java project config" />
     <MESSAGE value="Add initial networking" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add initial networking" />
+    <MESSAGE value="Gets coords from game" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gets coords from game" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1605252763935">
@@ -231,22 +234,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605247838158" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1605426139379">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1605501269751">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605426139379" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1605426139379">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605501269751" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1605501269751">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605426139379" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1605426139379">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605501269751" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1605501269751">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605426139379" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1605426139379">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605501269751" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1605501269751">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605426139379" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605501269751" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1605312613100">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -271,10 +274,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="444" y="68" key="SettingsEditor/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605301725107" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605259090363">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605427114442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605259090363" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.11.2048.1152@0.0.1920.1040" timestamp="1605427114442" />
     <state x="581" y="140" key="new project wizard" timestamp="1605245850493">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
